@@ -34,6 +34,21 @@ func main() {
 	client := NewHTTPClient(apiBase)
 	registerTools(s, client)
 
+	// Transport: stdio (default, untuk Claude lokal) atau SSE (server persisten di CT).
+	if os.Getenv("MCP_TRANSPORT") == "sse" {
+		addr := os.Getenv("MCP_ADDR")
+		if addr == "" {
+			addr = ":8765"
+		}
+		log.Printf("serving SSE on %s", addr)
+		sse := server.NewSSEServer(s)
+		if err := sse.Start(addr); err != nil {
+			fmt.Fprintf(os.Stderr, "[mt5-mcp] SSE server error: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+
 	if err := server.ServeStdio(s); err != nil {
 		fmt.Fprintf(os.Stderr, "[mt5-mcp] server error: %v\n", err)
 		os.Exit(1)
