@@ -1,0 +1,9 @@
+[14:50:02] Akun 270970358 | Exness-MT5Trial17 | bal=$104.66 eq=$104.66
+[14:50:02] MAOSC (SMA10/30 cross + RSI14 filter) | USDJPY H1 | SL 1.2×ATR TP 1.8×ATR
+[14:50:02] risk 1.0% cap 6.0% | ATR≥0.0 spread≤12.0% | magic 770002 | 🔴 LIVE
+[14:50:02] Loop tiap 15s — Ctrl+C berhenti.
+[14:50:02] bar 05-29 13:00 | close=159.210 ATR=0.090 spread=0.007 | signal=none
+[15:00:04] bar 05-29 14:00 | close=159.259 ATR=0.092 spread=0.007 | signal=none
+[16:00:14] bar 05-29 15:00 | close=159.291 ATR=0.093 spread=0.007 | signal=none
+[17:00:11] bar 05-29 16:00 | close=159.295 ATR=0.091 spread=0.007 | signal=none
+[18:00:10] bar 05-29 17:00 | close=159.283 ATR=0.089 spread=0.007 | signal=none

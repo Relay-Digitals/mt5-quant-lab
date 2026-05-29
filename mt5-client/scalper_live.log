@@ -1,0 +1,399 @@
+[14:39:25] Akun 270970358 | Exness-MT5Trial17 | balance=$104.66 equity=$104.66 | XAUUSD M1
+[14:39:25] Strategi EMA9/21/trend50 | SL 1.2×ATR  TP 1.8×ATR | MODE: 🔴 LIVE
+[14:39:25] Filter: risk 1.0% (cap 6.0%) | ATR≥$1.5 | spread≤12.0% ATR
+[14:39:25] Loop tiap 5s — Ctrl+C utk berhenti.
+[14:39:25] bar 05-29 14:38 | close=4523.238 EMA9=4520.302 EMA21=4518.102 ATR=2.193 spread=216p | no cross
+[14:40:00] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:40:05] bar 05-29 14:39 | close=4522.372 EMA9=4520.716 EMA21=4518.491 ATR=2.148 spread=216p | no cross
+[14:40:16] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:41:01] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:41:06] bar 05-29 14:40 | close=4523.370 EMA9=4521.246 EMA21=4518.934 ATR=2.133 spread=216p | no cross
+[14:42:01] bar 05-29 14:41 | close=4522.048 EMA9=4521.407 EMA21=4519.217 ATR=2.130 spread=372p | no cross
+[14:43:02] bar 05-29 14:42 | close=4522.889 EMA9=4521.703 EMA21=4519.551 ATR=2.136 spread=216p | no cross
+[14:44:03] bar 05-29 14:43 | close=4523.343 EMA9=4522.031 EMA21=4519.896 ATR=2.090 spread=216p | no cross
+[14:44:43] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:44:58] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:45:03] bar 05-29 14:44 | close=4525.265 EMA9=4522.678 EMA21=4520.384 ATR=2.163 spread=216p | no cross
+[14:45:49] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[14:46:04] bar 05-29 14:45 | close=4525.373 EMA9=4523.217 EMA21=4520.837 ATR=2.131 spread=216p | no cross
+[14:47:04] bar 05-29 14:46 | close=4523.805 EMA9=4523.335 EMA21=4521.107 ATR=2.113 spread=216p | no cross
+[14:47:19] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:47:44] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:47:55] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:48:05] bar 05-29 14:47 | close=4523.692 EMA9=4523.406 EMA21=4521.342 ATR=2.029 spread=216p | no cross
+[14:48:15] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[14:48:30] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:48:50] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:49:00] bar 05-29 14:48 | close=4524.044 EMA9=4523.534 EMA21=4521.588 ATR=1.992 spread=216p | no cross
+[14:50:01] bar 05-29 14:49 | close=4524.237 EMA9=4523.674 EMA21=4521.829 ATR=1.945 spread=216p | no cross
+[14:50:26] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:51:01] bar 05-29 14:50 | close=4524.295 EMA9=4523.798 EMA21=4522.053 ATR=1.896 spread=216p | no cross
+[14:51:16] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:52:02] bar 05-29 14:51 | close=4523.427 EMA9=4523.724 EMA21=4522.178 ATR=1.859 spread=216p | no cross
+[14:53:02] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:53:07] bar 05-29 14:52 | close=4524.838 EMA9=4523.947 EMA21=4522.420 ATR=1.867 spread=216p | no cross
+[14:54:03] bar 05-29 14:53 | close=4523.378 EMA9=4523.833 EMA21=4522.507 ATR=1.975 spread=216p | no cross
+[14:55:03] bar 05-29 14:54 | close=4523.389 EMA9=4523.744 EMA21=4522.587 ATR=1.903 spread=216p | no cross
+[14:55:28] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:56:04] bar 05-29 14:55 | close=4523.882 EMA9=4523.772 EMA21=4522.705 ATR=1.859 spread=196p | no cross
+[14:56:59] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:57:04] bar 05-29 14:56 | close=4524.777 EMA9=4523.973 EMA21=4522.893 ATR=1.815 spread=196p | no cross
+[14:57:14] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[14:58:00] bar 05-29 14:57 | close=4524.857 EMA9=4524.150 EMA21=4523.072 ATR=1.757 spread=216p | no cross
+[14:58:35] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[14:59:00] bar 05-29 14:58 | close=4525.020 EMA9=4524.324 EMA21=4523.249 ATR=1.704 spread=216p | no cross
+[14:59:26] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[14:59:41] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[14:59:56] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:00:01] bar 05-29 14:59 | close=4524.533 EMA9=4524.366 EMA21=4523.365 ATR=1.662 spread=216p | no cross
+[15:01:01] bar 05-29 15:00 | close=4524.031 EMA9=4524.299 EMA21=4523.426 ATR=1.668 spread=216p | no cross
+[15:01:12] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:01:27] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:02:02] bar 05-29 15:01 | close=4521.429 EMA9=4523.725 EMA21=4523.244 ATR=1.770 spread=216p | no cross
+[15:02:32] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:03:03] bar 05-29 15:02 | close=4520.343 EMA9=4523.048 EMA21=4522.981 ATR=1.794 spread=216p | no cross
+[15:03:38] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:03:48] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:04:03] bar 05-29 15:03 | close=4520.071 EMA9=4522.453 EMA21=4522.716 ATR=1.781 spread=196p | EMA cross-down + tren turun
+[15:04:03] ➤ SINYAL SELL XAUUSD @ 4520.433 | SL 4522.570 (−2.137) TP 4517.228 (+3.205) R:R=1.50
+[15:04:03]    lot=0.01 | est.risk=$2.14 (target $1.05 = 1.0%) | balance=$104.66
+[15:04:03]    ⚠ est.risk $2.14 = 2.0% (target 1.0%, masih di bawah cap 6.0%).
+[15:04:03]    ✓ LIVE order_send retcode=10009 deal=1799135389 order=2009440624 price=4520.218 vol=0.01
+[15:04:13] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:04:23] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:05:04] bar 05-29 15:04 | close=4519.327 EMA9=4521.828 EMA21=4522.408 ATR=1.818 spread=216p | no cross
+[15:06:00] bar 05-29 15:05 | close=4520.231 EMA9=4521.508 EMA21=4522.210 ATR=1.767 spread=196p | no cross
+[15:07:01] bar 05-29 15:06 | close=4518.722 EMA9=4520.951 EMA21=4521.893 ATR=1.811 spread=216p | no cross
+[15:07:12] → break-even: geser SL ticket 2009440624 ke 4520.218
+[15:08:03] bar 05-29 15:07 | close=4517.327 EMA9=4520.226 EMA21=4521.478 ATR=1.860 spread=216p | no cross
+[15:09:03] bar 05-29 15:08 | close=4518.239 EMA9=4519.829 EMA21=4521.183 ATR=1.839 spread=216p | no cross
+[15:09:43] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:09:58] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:10:04] bar 05-29 15:09 | close=4516.081 EMA9=4519.079 EMA21=4520.720 ATR=1.901 spread=216p | no cross
+[15:10:39] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:11:04] bar 05-29 15:10 | close=4517.936 EMA9=4518.851 EMA21=4520.467 ATR=1.915 spread=216p | no cross
+[15:11:54] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:12:04] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:12:09] bar 05-29 15:11 | close=4517.907 EMA9=4518.662 EMA21=4520.234 ATR=1.876 spread=196p | no cross
+[15:13:00] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:13:05] bar 05-29 15:12 | close=4518.783 EMA9=4518.686 EMA21=4520.102 ATR=1.848 spread=216p | no cross
+[15:14:00] bar 05-29 15:13 | close=4516.747 EMA9=4518.298 EMA21=4519.797 ATR=1.918 spread=216p | no cross
+[15:14:36] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:15:01] bar 05-29 15:14 | close=4515.258 EMA9=4517.690 EMA21=4519.384 ATR=1.953 spread=196p | no cross
+[15:16:01] bar 05-29 15:15 | close=4514.599 EMA9=4517.072 EMA21=4518.949 ATR=1.952 spread=216p | no cross
+[15:16:57] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:17:02] bar 05-29 15:16 | close=4515.797 EMA9=4516.817 EMA21=4518.663 ATR=1.972 spread=216p | no cross
+[15:18:02] bar 05-29 15:17 | close=4514.200 EMA9=4516.294 EMA21=4518.257 ATR=1.969 spread=216p | no cross
+[15:18:22] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:18:38] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:19:03] bar 05-29 15:18 | close=4513.594 EMA9=4515.754 EMA21=4517.833 ATR=1.911 spread=216p | no cross
+[15:20:03] bar 05-29 15:19 | close=4513.363 EMA9=4515.276 EMA21=4517.427 ATR=1.888 spread=216p | no cross
+[15:20:39] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:21:04] bar 05-29 15:20 | close=4513.495 EMA9=4514.919 EMA21=4517.069 ATR=1.836 spread=216p | no cross
+[15:22:04] bar 05-29 15:21 | close=4515.109 EMA9=4514.957 EMA21=4516.891 ATR=2.012 spread=216p | no cross
+[15:23:05] bar 05-29 15:22 | close=4515.586 EMA9=4515.083 EMA21=4516.772 ATR=1.943 spread=216p | no cross
+[15:24:00] bar 05-29 15:23 | close=4516.182 EMA9=4515.303 EMA21=4516.719 ATR=1.952 spread=196p | no cross
+[15:24:56] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:25:01] bar 05-29 15:24 | close=4515.459 EMA9=4515.334 EMA21=4516.604 ATR=1.912 spread=216p | no cross
+[15:26:02] bar 05-29 15:25 | close=4515.431 EMA9=4515.353 EMA21=4516.498 ATR=1.975 spread=216p | no cross
+[15:27:02] bar 05-29 15:26 | close=4515.897 EMA9=4515.462 EMA21=4516.443 ATR=1.973 spread=216p | no cross
+[15:28:03] bar 05-29 15:27 | close=4517.141 EMA9=4515.798 EMA21=4516.506 ATR=1.965 spread=216p | no cross
+[15:28:58] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:29:03] bar 05-29 15:28 | close=4517.806 EMA9=4516.200 EMA21=4516.625 ATR=1.899 spread=216p | no cross
+[15:30:04] bar 05-29 15:29 | close=4517.215 EMA9=4516.403 EMA21=4516.678 ATR=1.878 spread=216p | no cross
+[15:31:04] bar 05-29 15:30 | close=4516.296 EMA9=4516.381 EMA21=4516.644 ATR=1.897 spread=216p | no cross
+[15:32:05] bar 05-29 15:31 | close=4516.945 EMA9=4516.494 EMA21=4516.671 ATR=1.859 spread=216p | no cross
+[15:33:00] bar 05-29 15:32 | close=4516.442 EMA9=4516.484 EMA21=4516.650 ATR=1.845 spread=216p | no cross
+[15:34:06] bar 05-29 15:33 | close=4515.765 EMA9=4516.340 EMA21=4516.570 ATR=1.790 spread=216p | no cross
+[15:35:01] bar 05-29 15:34 | close=4515.089 EMA9=4516.090 EMA21=4516.435 ATR=1.772 spread=216p | no cross
+[15:36:02] bar 05-29 15:35 | close=4514.822 EMA9=4515.836 EMA21=4516.288 ATR=1.791 spread=216p | no cross
+[15:37:02] bar 05-29 15:36 | close=4515.078 EMA9=4515.685 EMA21=4516.178 ATR=1.792 spread=216p | no cross
+[15:38:03] bar 05-29 15:37 | close=4514.209 EMA9=4515.389 EMA21=4515.999 ATR=1.851 spread=216p | no cross
+[15:38:38] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:39:03] bar 05-29 15:38 | close=4514.713 EMA9=4515.254 EMA21=4515.882 ATR=1.797 spread=216p | no cross
+[15:39:53] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:40:03] bar 05-29 15:39 | close=4514.876 EMA9=4515.179 EMA21=4515.791 ATR=1.760 spread=216p | no cross
+[15:41:04] bar 05-29 15:40 | close=4514.695 EMA9=4515.082 EMA21=4515.691 ATR=1.700 spread=216p | no cross
+[15:41:24] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:41:34] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:42:04] bar 05-29 15:41 | close=4514.898 EMA9=4515.045 EMA21=4515.619 ATR=1.643 spread=216p | no cross
+[15:43:00] bar 05-29 15:42 | close=4515.528 EMA9=4515.142 EMA21=4515.611 ATR=1.638 spread=216p | no cross
+[15:44:00] bar 05-29 15:43 | close=4515.124 EMA9=4515.138 EMA21=4515.567 ATR=1.625 spread=216p | no cross
+[15:45:01] bar 05-29 15:44 | close=4514.876 EMA9=4515.086 EMA21=4515.504 ATR=1.591 spread=216p | no cross
+[15:46:02] bar 05-29 15:45 | close=4513.956 EMA9=4514.860 EMA21=4515.363 ATR=1.659 spread=216p | no cross
+[15:46:47] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:47:02] bar 05-29 15:46 | close=4513.825 EMA9=4514.653 EMA21=4515.223 ATR=1.629 spread=216p | no cross
+[15:48:03] bar 05-29 15:47 | close=4513.940 EMA9=4514.510 EMA21=4515.107 ATR=1.568 spread=216p | no cross
+[15:48:38] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:48:48] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:49:03] bar 05-29 15:48 | close=4512.033 EMA9=4514.015 EMA21=4514.827 ATR=1.647 spread=156p | no cross
+[15:49:13] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:50:04] bar 05-29 15:49 | close=4511.405 EMA9=4513.493 EMA21=4514.516 ATR=1.660 spread=216p | no cross
+[15:51:05] bar 05-29 15:50 | close=4510.159 EMA9=4512.826 EMA21=4514.120 ATR=1.700 spread=216p | no cross
+[15:52:00] bar 05-29 15:51 | close=4512.195 EMA9=4512.700 EMA21=4513.945 ATR=1.785 spread=216p | no cross
+[15:53:01] bar 05-29 15:52 | close=4514.055 EMA9=4512.971 EMA21=4513.955 ATR=1.822 spread=216p | no cross
+[15:53:06] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:53:46] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:53:56] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:54:01] bar 05-29 15:53 | close=4514.355 EMA9=4513.248 EMA21=4513.991 ATR=1.825 spread=216p | no cross
+[15:55:02] bar 05-29 15:54 | close=4513.923 EMA9=4513.383 EMA21=4513.985 ATR=1.764 spread=216p | no cross
+[15:55:32] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:56:03] bar 05-29 15:55 | close=4513.482 EMA9=4513.403 EMA21=4513.939 ATR=1.722 spread=216p | no cross
+[15:56:33] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[15:56:58] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:57:03] bar 05-29 15:56 | close=4513.638 EMA9=4513.450 EMA21=4513.912 ATR=1.691 spread=216p | no cross
+[15:57:38] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:57:59] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[15:58:04] bar 05-29 15:57 | close=4514.939 EMA9=4513.748 EMA21=4514.005 ATR=1.705 spread=196p | no cross
+[15:59:04] bar 05-29 15:58 | close=4514.039 EMA9=4513.806 EMA21=4514.008 ATR=1.665 spread=216p | no cross
+[15:59:44] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:00:05] bar 05-29 15:59 | close=4514.748 EMA9=4513.994 EMA21=4514.076 ATR=1.612 spread=216p | no cross
+[16:00:40] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:00:50] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:01:00] bar 05-29 16:00 | close=4517.213 EMA9=4514.638 EMA21=4514.361 ATR=1.709 spread=275p | EMA cross-up + tren naik
+[16:01:00] ✗ SKIP: spread $0.275 = 16.1% dari ATR > max 12% (biaya terlalu mahal)
+[16:01:15] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:01:35] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:02:00] bar 05-29 16:01 | close=4514.925 EMA9=4514.695 EMA21=4514.412 ATR=1.877 spread=216p | no cross
+[16:02:11] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:03:01] bar 05-29 16:02 | close=4516.734 EMA9=4515.103 EMA21=4514.623 ATR=1.920 spread=196p | no cross
+[16:03:57] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:04:02] bar 05-29 16:03 | close=4518.734 EMA9=4515.829 EMA21=4514.997 ATR=2.015 spread=216p | no cross
+[16:05:02] bar 05-29 16:04 | close=4518.765 EMA9=4516.416 EMA21=4515.339 ATR=2.003 spread=216p | no cross
+[16:06:03] bar 05-29 16:05 | close=4517.968 EMA9=4516.727 EMA21=4515.578 ATR=2.006 spread=216p | no cross
+[16:07:03] bar 05-29 16:06 | close=4520.198 EMA9=4517.421 EMA21=4515.998 ATR=2.072 spread=196p | no cross
+[16:07:54] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:08:04] bar 05-29 16:07 | close=4521.020 EMA9=4518.141 EMA21=4516.455 ATR=2.098 spread=216p | no cross
+[16:09:05] bar 05-29 16:08 | close=4522.498 EMA9=4519.012 EMA21=4517.004 ATR=2.108 spread=216p | no cross
+[16:10:00] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:10:05] bar 05-29 16:09 | close=4523.679 EMA9=4519.946 EMA21=4517.611 ATR=2.064 spread=216p | no cross
+[16:11:01] bar 05-29 16:10 | close=4524.551 EMA9=4520.867 EMA21=4518.242 ATR=2.040 spread=216p | no cross
+[16:12:01] bar 05-29 16:11 | close=4525.762 EMA9=4521.846 EMA21=4518.926 ATR=2.033 spread=216p | no cross
+[16:13:02] bar 05-29 16:12 | close=4525.843 EMA9=4522.645 EMA21=4519.554 ATR=1.940 spread=216p | no cross
+[16:14:02] bar 05-29 16:13 | close=4529.977 EMA9=4524.112 EMA21=4520.502 ATR=2.142 spread=216p | no cross
+[16:15:03] bar 05-29 16:14 | close=4528.954 EMA9=4525.080 EMA21=4521.270 ATR=2.098 spread=216p | no cross
+[16:15:48] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:16:03] bar 05-29 16:15 | close=4527.423 EMA9=4525.549 EMA21=4521.830 ATR=2.091 spread=196p | no cross
+[16:16:44] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:17:04] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:17:09] bar 05-29 16:16 | close=4528.751 EMA9=4526.189 EMA21=4522.459 ATR=2.107 spread=216p | no cross
+[16:18:04] bar 05-29 16:17 | close=4529.029 EMA9=4526.757 EMA21=4523.056 ATR=2.080 spread=216p | no cross
+[16:19:00] bar 05-29 16:18 | close=4527.730 EMA9=4526.952 EMA21=4523.481 ATR=2.097 spread=216p | no cross
+[16:19:20] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:19:55] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:20:01] bar 05-29 16:19 | close=4527.871 EMA9=4527.136 EMA21=4523.880 ATR=2.108 spread=216p | no cross
+[16:21:01] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:21:06] bar 05-29 16:20 | close=4527.301 EMA9=4527.169 EMA21=4524.191 ATR=2.046 spread=216p | no cross
+[16:21:16] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:21:31] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:21:46] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:22:01] bar 05-29 16:21 | close=4525.497 EMA9=4526.834 EMA21=4524.310 ATR=2.065 spread=216p | no cross
+[16:23:02] bar 05-29 16:22 | close=4524.926 EMA9=4526.453 EMA21=4524.366 ATR=2.031 spread=216p | no cross
+[16:24:03] bar 05-29 16:23 | close=4523.131 EMA9=4525.788 EMA21=4524.254 ATR=2.053 spread=216p | no cross
+[16:24:43] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:24:58] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:25:03] bar 05-29 16:24 | close=4522.825 EMA9=4525.196 EMA21=4524.124 ATR=2.004 spread=216p | no cross
+[16:25:59] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:26:04] bar 05-29 16:25 | close=4523.895 EMA9=4524.936 EMA21=4524.103 ATR=1.970 spread=196p | no cross
+[16:27:05] bar 05-29 16:26 | close=4524.067 EMA9=4524.762 EMA21=4524.100 ATR=1.927 spread=216p | no cross
+[16:28:00] bar 05-29 16:27 | close=4523.913 EMA9=4524.592 EMA21=4524.083 ATR=1.895 spread=216p | no cross
+[16:28:35] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:29:01] bar 05-29 16:28 | close=4528.407 EMA9=4525.355 EMA21=4524.476 ATR=2.171 spread=216p | no cross
+[16:30:01] bar 05-29 16:29 | close=4528.755 EMA9=4526.035 EMA21=4524.865 ATR=2.298 spread=216p | no cross
+[16:31:02] bar 05-29 16:30 | close=4528.630 EMA9=4526.554 EMA21=4525.207 ATR=2.310 spread=216p | no cross
+[16:32:02] bar 05-29 16:31 | close=4525.925 EMA9=4526.428 EMA21=4525.272 ATR=2.424 spread=216p | no cross
+[16:33:03] bar 05-29 16:32 | close=4525.816 EMA9=4526.306 EMA21=4525.322 ATR=2.390 spread=216p | no cross
+[16:34:03] bar 05-29 16:33 | close=4526.144 EMA9=4526.273 EMA21=4525.397 ATR=2.399 spread=216p | no cross
+[16:35:04] bar 05-29 16:34 | close=4528.527 EMA9=4526.724 EMA21=4525.681 ATR=2.484 spread=216p | no cross
+[16:35:19] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:35:29] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:35:54] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:36:04] bar 05-29 16:35 | close=4526.960 EMA9=4526.771 EMA21=4525.797 ATR=2.437 spread=216p | no cross
+[16:36:25] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:37:00] bar 05-29 16:36 | close=4527.716 EMA9=4526.960 EMA21=4525.972 ATR=2.373 spread=216p | no cross
+[16:38:01] bar 05-29 16:37 | close=4528.015 EMA9=4527.171 EMA21=4526.158 ATR=2.347 spread=216p | no cross
+[16:39:01] bar 05-29 16:38 | close=4529.857 EMA9=4527.708 EMA21=4526.494 ATR=2.350 spread=216p | no cross
+[16:39:36] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:40:02] bar 05-29 16:39 | close=4528.670 EMA9=4527.901 EMA21=4526.692 ATR=2.314 spread=216p | no cross
+[16:40:17] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:41:03] bar 05-29 16:40 | close=4529.611 EMA9=4528.243 EMA21=4526.957 ATR=2.281 spread=216p | no cross
+[16:41:28] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:41:53] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:42:03] bar 05-29 16:41 | close=4530.928 EMA9=4528.780 EMA21=4527.318 ATR=2.297 spread=196p | no cross
+[16:42:23] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:43:04] bar 05-29 16:42 | close=4529.491 EMA9=4528.922 EMA21=4527.516 ATR=2.268 spread=216p | no cross
+[16:43:14] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:44:04] bar 05-29 16:43 | close=4531.147 EMA9=4529.367 EMA21=4527.846 ATR=2.254 spread=216p | no cross
+[16:44:29] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:45:05] bar 05-29 16:44 | close=4532.257 EMA9=4529.945 EMA21=4528.247 ATR=2.207 spread=216p | no cross
+[16:46:00] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:46:05] bar 05-29 16:45 | close=4533.810 EMA9=4530.718 EMA21=4528.753 ATR=2.198 spread=196p | no cross
+[16:46:41] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:47:01] bar 05-29 16:46 | close=4537.196 EMA9=4532.014 EMA21=4529.520 ATR=2.344 spread=216p | no cross
+[16:48:01] bar 05-29 16:47 | close=4535.931 EMA9=4532.797 EMA21=4530.103 ATR=2.321 spread=216p | no cross
+[16:49:02] bar 05-29 16:48 | close=4536.289 EMA9=4533.495 EMA21=4530.665 ATR=2.314 spread=216p | no cross
+[16:49:47] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:49:57] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:50:02] bar 05-29 16:49 | close=4537.021 EMA9=4534.201 EMA21=4531.243 ATR=2.258 spread=216p | no cross
+[16:51:02] bar 05-29 16:50 | close=4538.295 EMA9=4535.019 EMA21=4531.884 ATR=2.330 spread=216p | no cross
+[16:51:43] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:52:03] bar 05-29 16:51 | close=4535.292 EMA9=4535.074 EMA21=4532.194 ATR=2.397 spread=196p | no cross
+[16:53:03] bar 05-29 16:52 | close=4533.943 EMA9=4534.848 EMA21=4532.353 ATR=2.366 spread=216p | no cross
+[16:53:18] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[16:54:04] bar 05-29 16:53 | close=4532.442 EMA9=4534.367 EMA21=4532.361 ATR=2.326 spread=216p | no cross
+[16:54:14] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:54:59] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:55:04] bar 05-29 16:54 | close=4532.798 EMA9=4534.053 EMA21=4532.401 ATR=2.297 spread=216p | no cross
+[16:56:05] bar 05-29 16:55 | close=4531.718 EMA9=4533.586 EMA21=4532.339 ATR=2.228 spread=216p | no cross
+[16:57:00] bar 05-29 16:56 | close=4530.504 EMA9=4532.970 EMA21=4532.172 ATR=2.244 spread=216p | no cross
+[16:58:01] bar 05-29 16:57 | close=4531.369 EMA9=4532.649 EMA21=4532.099 ATR=2.257 spread=216p | no cross
+[16:58:16] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[16:59:01] bar 05-29 16:58 | close=4531.970 EMA9=4532.514 EMA21=4532.087 ATR=2.246 spread=216p | no cross
+[16:59:31] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:00:02] bar 05-29 16:59 | close=4531.239 EMA9=4532.259 EMA21=4532.010 ATR=2.203 spread=216p | no cross
+[17:00:32] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:00:52] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:01:02] bar 05-29 17:00 | close=4528.728 EMA9=4531.553 EMA21=4531.712 ATR=2.233 spread=216p | EMA cross-down + tren turun
+[17:01:02] ➤ SINYAL SELL XAUUSD @ 4528.773 | SL 4531.452 (−2.679) TP 4524.754 (+4.019) R:R=1.50
+[17:01:02]    lot=0.01 | est.risk=$2.68 (target $1.08 = 1.0%) | balance=$107.65
+[17:01:02]    ⚠ est.risk $2.68 = 2.5% (target 1.0%, masih di bawah cap 6.0%).
+[17:01:03]    ✓ LIVE order_send retcode=10009 deal=1799556066 order=2009910292 price=4528.773 vol=0.01
+[17:01:23] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:02:03] bar 05-29 17:01 | close=4527.287 EMA9=4530.699 EMA21=4531.309 ATR=2.232 spread=216p | no cross
+[17:02:09] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:02:24] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:02:34] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:02:54] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:03:04] bar 05-29 17:02 | close=4526.752 EMA9=4529.910 EMA21=4530.895 ATR=2.158 spread=216p | no cross
+[17:03:09] → break-even: geser SL ticket 2009910292 ke 4528.773
+[17:03:30] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:03:55] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:04:05] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:04:11] bar 05-29 17:03 | close=4527.484 EMA9=4529.425 EMA21=4530.585 ATR=2.155 spread=216p | no cross
+[17:04:26] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:05:01] bar 05-29 17:04 | close=4526.143 EMA9=4528.768 EMA21=4530.181 ATR=2.113 spread=216p | no cross
+[17:05:52] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:06:02] bar 05-29 17:05 | close=4527.835 EMA9=4528.582 EMA21=4529.968 ATR=2.131 spread=277p | no cross
+[17:06:58] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:07:03] bar 05-29 17:06 | close=4528.485 EMA9=4528.562 EMA21=4529.833 ATR=2.103 spread=216p | no cross
+[17:08:04] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:08:09] bar 05-29 17:07 | close=4527.009 EMA9=4528.252 EMA21=4529.576 ATR=2.092 spread=216p | no cross
+[17:09:04] bar 05-29 17:08 | close=4526.823 EMA9=4527.966 EMA21=4529.326 ATR=2.002 spread=216p | no cross
+[17:09:14] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:09:35] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:09:55] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:10:00] bar 05-29 17:09 | close=4526.296 EMA9=4527.632 EMA21=4529.051 ATR=1.937 spread=216p | no cross
+[17:10:15] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:11:01] bar 05-29 17:10 | close=4527.047 EMA9=4527.515 EMA21=4528.868 ATR=1.936 spread=216p | no cross
+[17:12:01] bar 05-29 17:11 | close=4526.962 EMA9=4527.404 EMA21=4528.695 ATR=1.881 spread=216p | no cross
+[17:13:02] bar 05-29 17:12 | close=4528.310 EMA9=4527.586 EMA21=4528.660 ATR=1.896 spread=216p | no cross
+[17:13:22] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:14:03] bar 05-29 17:13 | close=4527.748 EMA9=4527.618 EMA21=4528.577 ATR=1.874 spread=196p | no cross
+[17:14:18] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:15:03] bar 05-29 17:14 | close=4528.396 EMA9=4527.774 EMA21=4528.561 ATR=1.849 spread=216p | no cross
+[17:16:04] bar 05-29 17:15 | close=4529.900 EMA9=4528.199 EMA21=4528.682 ATR=1.894 spread=216p | no cross
+[17:16:49] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:17:05] bar 05-29 17:16 | close=4529.013 EMA9=4528.362 EMA21=4528.713 ATR=1.871 spread=216p | no cross
+[17:18:01] bar 05-29 17:17 | close=4525.893 EMA9=4527.868 EMA21=4528.456 ATR=1.982 spread=216p | no cross
+[17:18:36] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:18:46] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:19:01] bar 05-29 17:18 | close=4526.583 EMA9=4527.611 EMA21=4528.286 ATR=1.940 spread=216p | no cross
+[17:19:31] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:19:47] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:20:02] bar 05-29 17:19 | close=4526.619 EMA9=4527.413 EMA21=4528.134 ATR=1.862 spread=216p | no cross
+[17:21:02] bar 05-29 17:20 | close=4527.330 EMA9=4527.396 EMA21=4528.061 ATR=1.821 spread=196p | no cross
+[17:22:03] bar 05-29 17:21 | close=4526.294 EMA9=4527.176 EMA21=4527.901 ATR=1.767 spread=216p | no cross
+[17:23:04] bar 05-29 17:22 | close=4527.348 EMA9=4527.210 EMA21=4527.850 ATR=1.747 spread=216p | no cross
+[17:23:34] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:23:59] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:24:04] bar 05-29 17:23 | close=4526.606 EMA9=4527.089 EMA21=4527.737 ATR=1.708 spread=216p | no cross
+[17:25:00] bar 05-29 17:24 | close=4527.522 EMA9=4527.176 EMA21=4527.718 ATR=1.697 spread=216p | no cross
+[17:26:01] bar 05-29 17:25 | close=4529.538 EMA9=4527.648 EMA21=4527.883 ATR=1.771 spread=196p | no cross
+[17:26:41] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:27:01] bar 05-29 17:26 | close=4529.064 EMA9=4527.931 EMA21=4527.991 ATR=1.743 spread=216p | no cross
+[17:27:31] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:27:47] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:28:02] bar 05-29 17:27 | close=4530.688 EMA9=4528.483 EMA21=4528.236 ATR=1.778 spread=216p | EMA cross-up + tren naik
+[17:28:02] ✗ SKIP: spread $0.216 = 12.2% dari ATR > max 12% (biaya terlalu mahal)
+[17:28:22] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:29:02] bar 05-29 17:28 | close=4530.065 EMA9=4528.799 EMA21=4528.402 ATR=1.722 spread=216p | no cross
+[17:30:03] bar 05-29 17:29 | close=4530.588 EMA9=4529.157 EMA21=4528.601 ATR=1.706 spread=216p | no cross
+[17:30:08] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:31:03] bar 05-29 17:30 | close=4531.583 EMA9=4529.642 EMA21=4528.872 ATR=1.698 spread=216p | no cross
+[17:31:54] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:32:04] bar 05-29 17:31 | close=4531.153 EMA9=4529.944 EMA21=4529.079 ATR=1.718 spread=216p | no cross
+[17:33:04] bar 05-29 17:32 | close=4533.892 EMA9=4530.734 EMA21=4529.517 ATR=1.791 spread=216p | no cross
+[17:33:09] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:34:00] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:34:05] bar 05-29 17:33 | close=4537.894 EMA9=4532.166 EMA21=4530.278 ATR=2.011 spread=216p | no cross
+[17:34:10] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:35:00] bar 05-29 17:34 | close=4538.701 EMA9=4533.473 EMA21=4531.044 ATR=1.954 spread=216p | no cross
+[17:35:05] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:36:01] bar 05-29 17:35 | close=4538.640 EMA9=4534.506 EMA21=4531.735 ATR=1.899 spread=216p | no cross
+[17:36:11] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:37:02] bar 05-29 17:36 | close=4539.833 EMA9=4535.572 EMA21=4532.471 ATR=1.911 spread=216p | no cross
+[17:37:57] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:38:02] bar 05-29 17:37 | close=4541.127 EMA9=4536.683 EMA21=4533.258 ATR=2.039 spread=216p | no cross
+[17:38:52] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:39:03] bar 05-29 17:38 | close=4540.885 EMA9=4537.523 EMA21=4533.951 ATR=2.035 spread=216p | no cross
+[17:39:18] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:39:28] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:39:38] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:40:03] bar 05-29 17:39 | close=4541.492 EMA9=4538.317 EMA21=4534.637 ATR=2.032 spread=196p | no cross
+[17:40:08] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:40:39] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:41:04] bar 05-29 17:40 | close=4539.563 EMA9=4538.566 EMA21=4535.084 ATR=2.122 spread=216p | no cross
+[17:42:00] bar 05-29 17:41 | close=4539.204 EMA9=4538.694 EMA21=4535.459 ATR=2.056 spread=196p | no cross
+[17:43:00] bar 05-29 17:42 | close=4537.094 EMA9=4538.374 EMA21=4535.608 ATR=2.138 spread=216p | no cross
+[17:43:56] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:44:01] bar 05-29 17:43 | close=4537.235 EMA9=4538.146 EMA21=4535.756 ATR=2.069 spread=216p | no cross
+[17:44:06] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:44:41] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:44:51] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:45:02] bar 05-29 17:44 | close=4537.850 EMA9=4538.087 EMA21=4535.946 ATR=2.066 spread=216p | no cross
+[17:46:02] bar 05-29 17:45 | close=4539.836 EMA9=4538.437 EMA21=4536.300 ATR=2.218 spread=216p | no cross
+[17:46:12] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:47:03] bar 05-29 17:46 | close=4537.887 EMA9=4538.327 EMA21=4536.444 ATR=2.241 spread=216p | no cross
+[17:47:18] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:47:38] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:48:03] bar 05-29 17:47 | close=4537.265 EMA9=4538.114 EMA21=4536.519 ATR=2.169 spread=216p | no cross
+[17:48:13] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:49:04] bar 05-29 17:48 | close=4536.644 EMA9=4537.820 EMA21=4536.530 ATR=2.112 spread=216p | no cross
+[17:49:14] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:49:34] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:50:01] bar 05-29 17:49 | close=4537.291 EMA9=4537.714 EMA21=4536.599 ATR=2.087 spread=216p | no cross
+[17:50:56] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:51:01] bar 05-29 17:50 | close=4538.733 EMA9=4537.918 EMA21=4536.793 ATR=2.079 spread=216p | no cross
+[17:51:37] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:52:02] bar 05-29 17:51 | close=4537.746 EMA9=4537.884 EMA21=4536.880 ATR=2.053 spread=216p | no cross
+[17:53:02] bar 05-29 17:52 | close=4537.713 EMA9=4537.850 EMA21=4536.956 ATR=1.974 spread=216p | no cross
+[17:53:38] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:54:03] bar 05-29 17:53 | close=4537.988 EMA9=4537.877 EMA21=4537.049 ATR=1.927 spread=216p | no cross
+[17:54:28] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:55:03] bar 05-29 17:54 | close=4536.830 EMA9=4537.668 EMA21=4537.029 ATR=1.872 spread=216p | no cross
+[17:55:18] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:55:29] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:55:39] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:56:04] bar 05-29 17:55 | close=4536.720 EMA9=4537.478 EMA21=4537.001 ATR=1.813 spread=216p | no cross
+[17:56:39] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:57:04] bar 05-29 17:56 | close=4537.140 EMA9=4537.411 EMA21=4537.014 ATR=1.752 spread=216p | no cross
+[17:57:35] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[17:58:00] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:58:05] bar 05-29 17:57 | close=4535.645 EMA9=4537.057 EMA21=4536.889 ATR=1.767 spread=216p | no cross
+[17:58:45] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[17:59:01] bar 05-29 17:58 | close=4536.706 EMA9=4536.987 EMA21=4536.873 ATR=1.788 spread=216p | no cross
+[18:00:01] bar 05-29 17:59 | close=4538.420 EMA9=4537.274 EMA21=4537.013 ATR=1.824 spread=216p | no cross
+[18:00:11] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[18:01:02] bar 05-29 18:00 | close=4539.306 EMA9=4537.680 EMA21=4537.222 ATR=1.862 spread=216p | no cross
+[18:01:17] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[18:01:35] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[18:01:48] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[18:02:01] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[18:02:06] bar 05-29 18:01 | close=4538.767 EMA9=4537.898 EMA21=4537.362 ATR=1.869 spread=210p | no cross
+[18:02:22] (network: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+[18:03:02] bar 05-29 18:02 | close=4536.275 EMA9=4537.573 EMA21=4537.263 ATR=1.959 spread=85p | no cross
+[18:03:22] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[18:03:42] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[18:04:03] bar 05-29 18:03 | close=4536.888 EMA9=4537.436 EMA21=4537.229 ATR=1.903 spread=216p | no cross
+[18:05:03] bar 05-29 18:04 | close=4535.976 EMA9=4537.144 EMA21=4537.115 ATR=1.881 spread=196p | no cross
+[18:05:13] (network: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))

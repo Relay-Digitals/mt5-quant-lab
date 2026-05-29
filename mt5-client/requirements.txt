@@ -1,0 +1,4 @@
+mt5linux==1.0.3
+rpyc==5.2.3
+plumbum==1.7.0
+pandas

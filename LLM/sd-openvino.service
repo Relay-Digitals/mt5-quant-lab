@@ -1,0 +1,22 @@
+[Unit]
+Description=Stable Diffusion 1.5 (OpenVINO, Intel iGPU)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/sd-openvino
+Environment="MODEL_DIR=/opt/sd-openvino/models/sd15-int8"
+Environment="OV_DEVICE=GPU"
+Environment="HOST=0.0.0.0"
+Environment="PORT=7860"
+Environment="OV_CACHE_DIR=/opt/sd-openvino/ov_cache"
+ExecStart=/opt/sd-openvino/venv/bin/python /opt/sd-openvino/app.py
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=300
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
