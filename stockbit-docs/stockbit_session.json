@@ -1,0 +1,20 @@
+{
+  "user": {
+    "id": 3780805,
+    "username": "niaben",
+    "email": "nkurniasih824@gmail.com"
+  },
+  "player_id": "2292F1CB-37AD-42C7-942E-FBD6C0F26669",
+  "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImExNWQ5OGE2LTdkYzgtNDM3NS05NDk0LTEyOWJlM2RlODVkNCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZSI6Im5pYWJlbiIsImVtYSI6Im5rdXJuaWFzaWg4MjRAZ21haWwuY29tIiwiZnVsIjoiTmlhIEt1cm5pYXNpaCIsInNlcyI6IiIsImR2YyI6ImY0ZjIwOTkzODM3YTJiYmQ2MWEyZmVjMjUwNTUzZTkzIiwiZGlkIjoiYW5kcm9pZCIsInVpZCI6Mzc4MDgwNSwiY291IjoiSUQifSwiZXhwIjoxNzgwMjI1MzQ1LCJpYXQiOjE3ODAxMzg5NDUsImlzcyI6IlNUT0NLQklUIiwianRpIjoiNDQyN2Q3ODUtNDEwNS00N2NhLThmMjItYmVkNTE3ZTliYThlIiwibmJmIjoxNzgwMTM4OTQ1LCJ2ZXIiOiJ2MSJ9.bJg7SjphyX0LD2_lR6SQSf8uzXHlbbXLMmlN_kJQcaAc2AMmVVat--rqJxrMj9GEtt9stPsc_PHHJaO8sM9cuhBw4w6zLHzCzb0RzKppbvZ0Lc8MNN5mTk4KxUCj39Em6KcjMngFDcIeTuSrjIePvGwG-mkZh03P9Ht4Zy5gT3M-hE6coKPtyd7WDXRFOCXMex7DYM9sEP-Pqu5q8EQMiCVY8tVN2CZCOmu8jC4C6ubxOyD9SsOb8gHyTIi5a34DEzpCxxqXj0ip9a87Rl8j6BdQpv3nFDH7yUpi7l2lGCOvkhuvEUDaeeFUxRJWRV6wfSZhP9dTnXPjR89KdsXFhQ",
+  "access_expired_at": "2026-05-31T11:02:25Z",
+  "refresh_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImExNWQ5OGE2LTdkYzgtNDM3NS05NDk0LTEyOWJlM2RlODVkNCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InR5cCI6InJlZnJlc2giLCJ1c2UiOiJuaWFiZW4iLCJlbWEiOiJua3Vybmlhc2loODI0QGdtYWlsLmNvbSIsImZ1bCI6Ik5pYSBLdXJuaWFzaWgiLCJzZXMiOiIiLCJkdmMiOiJmNGYyMDk5MzgzN2EyYmJkNjFhMmZlYzI1MDU1M2U5MyIsImRpZCI6ImFuZHJvaWQiLCJ1aWQiOjM3ODA4MDUsImNvdSI6IklEIn0sImV4cCI6MTc4MDc0Mzc0NSwiaWF0IjoxNzgwMTM4OTQ1LCJpc3MiOiJTVE9DS0JJVCIsImp0aSI6IjQ0MjdkNzg1LTQxMDUtNDdjYS04ZjIyLWJlZDUxN2U5YmE4ZSIsIm5iZiI6MTc4MDEzODk0NSwidmVyIjoidjEifQ.lcfPCcDOdm5avMxK4d_ikDRa9n8uK_7-XfUfxJIQ-UfEqNaVNsE2f10JVvF-1UzscSkrphgA1oDXkZWPCdHslSJG_g7nnI6uQn9KIEYBKAc4Gmi9rmfqwAgqosdQPGGKFOtgCEEgecMuy3p6fHrcYxfNu4JkrU5Z79OpWmgjZqPGA9GdIEbzMKY0CraxfErOQha7pF3VoFGV3UFR0XvgLrMt2joFNr_PWl5GQyn74YDq-Tjm3qJ3IHCi_dv2uhrAaRubZTH_neD9OVDrCSYp99rwHpnBkCV-bX9xmT21iCJor2Tlm8IqEVrHmxpa7QEAapsezR2y1f_-GPwwqU0G-Q",
+  "refresh_expired_at": "2026-06-06T11:02:25Z",
+  "base_url": "https://exodus.stockbit.com",
+  "required_headers": {
+    "User-Agent": "okhttp/4.12.0",
+    "Authorization": "Bearer <access_token>",
+    "X-AppVersion": "3.21.0",
+    "X-Platform": "android",
+    "Accept-Language": "id"
+  }
+}

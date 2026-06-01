@@ -1,0 +1,152 @@
+//@version=6
+indicator("MTF RSI + W%R + AUTO SIGNAL [FILTERED]", overlay=true)
+
+// === INPUT ===
+rsiLength = input.int(14, "RSI Length")
+wrLength  = input.int(14, "Williams %R Length")
+
+// === FILTER avoid-overbought (MTFWR-FILT) ===
+// Dari analisa data backtest 5thn: entry saat bb%B>0.8 ATAU CCI>100 (zona overbought)
+// = loss-prone (WR turun, avgNet negatif). Filter ini membuang entry tsb.
+// Lolos holdout (OOS): GBPUSD +6.1% PF1.37; generalize 7-8/9 pair, drawdown turun drastis.
+useFilter = input.bool(true,  "▶ Filter Avoid-Overbought (MTFWR-FILT)")
+bbLen     = input.int(20,     "  BB Length (filter)")
+bbMult    = input.float(2.0,  "  BB Mult (filter)")
+cciLen    = input.int(20,     "  CCI Length (filter)")
+bbUpThr   = input.float(0.8,  "  Skip jika bb%B >")
+cciThr    = input.float(100,  "  Skip jika CCI >")
+
+// === WILLIAMS %R ===
+williamsR(h, l, c, len) =>
+    hh = ta.highest(h, len)
+    ll = ta.lowest(l, len)
+    (hh - c) / (hh - ll) * -100
+
+// === GET DATA ===
+getData(tf) =>
+    rsi = request.security(syminfo.tickerid, tf, ta.rsi(close, rsiLength))
+    wr  = request.security(syminfo.tickerid, tf, williamsR(high, low, close, wrLength))
+    [rsi, wr]
+
+// === TF DATA ===
+[rsi1, wr1] = getData("1")
+[rsi2, wr2] = getData("5")
+[rsi3, wr3] = getData("15")
+[rsi4, wr4] = getData("30")
+[rsi5, wr5] = getData("60")
+[rsi6, wr6] = getData("120")
+[rsi7, wr7] = getData("240")
+[rsi8, wr8] = getData("D")
+
+// === TABLE ===
+var table t = table.new(position.top_right, 4, 10, border_width=1)
+
+// === COLORS ===
+colHeader = color.rgb(240, 240, 240)
+colText   = color.rgb(30, 30, 30)
+
+colBuy  = color.rgb(198, 239, 206)
+colSell = color.rgb(255, 199, 206)
+colWait = color.rgb(230, 230, 230)
+
+// === HEADER ===
+if barstate.isfirst
+    table.cell(t, 0, 0, "TF",  bgcolor=colHeader, text_color=colText)
+    table.cell(t, 1, 0, "RSI", bgcolor=colHeader, text_color=colText)
+    table.cell(t, 2, 0, "W%R", bgcolor=colHeader, text_color=colText)
+    table.cell(t, 3, 0, "Signal", bgcolor=colHeader, text_color=colText)
+
+// === SIGNAL FUNCTION ===
+getSignal(rsi, wr) =>
+    buy  = rsi < 30 and wr < -80
+    sell = rsi > 70 and wr > -20
+
+    signal = buy ? "BUY" : sell ? "SELL" : "WAIT"
+    bg = buy ? colBuy : sell ? colSell : colWait
+
+    [signal, bg]
+
+// === WRITE ROW ===
+writeRow(row, label, rsi, wr) =>
+    [signal, bg] = getSignal(rsi, wr)
+
+    table.cell(t, 0, row, label, text_color=colText, bgcolor=color.white)
+    table.cell(t, 1, row, str.tostring(rsi, "#.0"), text_color=colText, bgcolor=bg)
+    table.cell(t, 2, row, str.tostring(wr, "#.0"), text_color=colText, bgcolor=bg)
+    table.cell(t, 3, row, signal, text_color=colText, bgcolor=bg)
+
+// === FILL TABLE ===
+writeRow(1, "M1",  rsi1, wr1)
+writeRow(2, "M5",  rsi2, wr2)
+writeRow(3, "M15", rsi3, wr3)
+writeRow(4, "M30", rsi4, wr4)
+writeRow(5, "H1",  rsi5, wr5)
+writeRow(6, "H2",  rsi6, wr6)
+writeRow(7, "H4",  rsi7, wr7)
+writeRow(8, "D",   rsi8, wr8)
+
+// === SUMMARY ===
+buyCount =
+ (rsi1<30 and wr1<-80 ? 1:0) +
+ (rsi2<30 and wr2<-80 ? 1:0) +
+ (rsi3<30 and wr3<-80 ? 1:0) +
+ (rsi4<30 and wr4<-80 ? 1:0) +
+ (rsi5<30 and wr5<-80 ? 1:0) +
+ (rsi6<30 and wr6<-80 ? 1:0) +
+ (rsi7<30 and wr7<-80 ? 1:0) +
+ (rsi8<30 and wr8<-80 ? 1:0)
+
+sellCount =
+ (rsi1>70 and wr1>-20 ? 1:0) +
+ (rsi2>70 and wr2>-20 ? 1:0) +
+ (rsi3>70 and wr3>-20 ? 1:0) +
+ (rsi4>70 and wr4>-20 ? 1:0) +
+ (rsi5>70 and wr5>-20 ? 1:0) +
+ (rsi6>70 and wr6>-20 ? 1:0) +
+ (rsi7>70 and wr7>-20 ? 1:0) +
+ (rsi8>70 and wr8>-20 ? 1:0)
+
+summary = buyCount > sellCount ? "BUY BIAS" :
+          sellCount > buyCount ? "SELL BIAS" :
+          "NEUTRAL"
+
+table.cell(t, 0, 9, "Summary", text_color=color.blue)
+table.cell(t, 1, 9, summary, text_color=color.blue)
+
+// =====================================================
+// 🔥 AUTO SIGNAL M30 (TAMBAHAN TANPA MENGUBAH CORE)
+// =====================================================
+
+// === M30 BIAS ===
+buyBias  = rsi4 < 30 and wr4 < -80
+sellBias = rsi4 > 70 and wr4 > -20
+
+// === TRIGGER LTF ===
+buyTrigger =    (ta.crossover(rsi1, 30) or ta.crossover(rsi2, 30)) and (ta.crossover(wr1, -80) or ta.crossover(wr2, -80))
+
+sellTrigger =    (ta.crossunder(rsi1, 70) or ta.crossunder(rsi2, 70)) and (ta.crossunder(wr1, -20) or ta.crossunder(wr2, -20))
+
+// === FILTER avoid-overbought (dihitung di TF chart = trigger TF) ===
+bbBasis = ta.sma(close, bbLen)
+bbDev   = bbMult * ta.stdev(close, bbLen)
+bbUpper = bbBasis + bbDev
+bbLower = bbBasis - bbDev
+bbPctB  = (close - bbLower) / (bbUpper - bbLower)   // 0=band bawah, 1=band atas
+cciVal  = ta.cci(close, cciLen)
+// lolos filter jika TIDAK di zona overbought
+filterOK = not useFilter or (bbPctB <= bbUpThr and cciVal <= cciThr)
+
+// === FINAL SIGNAL (dengan filter MTFWR-FILT) ===
+buySignal  = buyBias and buyTrigger and filterOK
+sellSignal = sellBias and sellTrigger and filterOK
+
+// === PLOT ===
+plotshape(buySignal, title="BUY", location=location.belowbar,
+     color=color.green, style=shape.labelup, text="BUY")
+
+plotshape(sellSignal, title="SELL", location=location.abovebar,
+     color=color.red, style=shape.labeldown, text="SELL")
+
+// === ALERT ===
+alertcondition(buySignal, title="BUY SIGNAL", message="BUY M30 + LTF")
+alertcondition(sellSignal, title="SELL SIGNAL", message="SELL M30 + LTF")

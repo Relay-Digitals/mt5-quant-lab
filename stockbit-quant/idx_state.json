@@ -1,0 +1,18 @@
+{
+ "capital0": 100000000.0,
+ "cash": 81152380.0,
+ "peak": 100000000.0,
+ "positions": {
+  "BBCA": {
+   "method": "MR",
+   "entry": 5700.0,
+   "sh": 3300,
+   "sl": 5403.590575476068,
+   "tp": 5996.409424523932,
+   "date": "2026-05-31",
+   "reason": "MEANREV deep-oversold"
+  }
+ },
+ "journal": [],
+ "created": "2026-05-31"
+}

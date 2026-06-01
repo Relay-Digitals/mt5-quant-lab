@@ -17,7 +17,7 @@ from mt5_scalper import MT5Api
 import journal
 
 # magic → strategi (sesuai live runner)
-MAGIC_STRAT = {770001: "EMA", 770002: "MAOSC", 770003: "TREND", 770004: "MEANREV", 770005: "MAOSCQ"}
+MAGIC_STRAT = {770001: "EMA", 770002: "MAOSC", 770003: "TREND", 770004: "MEANREV", 770005: "MAOSCQ", 770006: "MTFWR"}
 
 
 def main():
