@@ -1,0 +1,15 @@
+[Unit]
+Description=WhatsApp -> Claude Code quant bridge bot
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/wa-claude-bridge
+EnvironmentFile=/opt/wa-claude-bridge/.env
+# muat .env ke environment + jalankan uvicorn dari venv
+ExecStart=/opt/wa-claude-bridge/venv/bin/uvicorn bot:app --host 0.0.0.0 --port 8088
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

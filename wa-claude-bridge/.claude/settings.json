@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          { "type": "command", "command": "python3 /opt/wa-claude-bridge/permguard.py" }
+        ]
+      }
+    ]
+  }
+}
