@@ -1,0 +1,11 @@
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+# secrets — JANGAN commit
+google-services.json
+composeApp/google-services.json
+*firebase-adminsdk*.json
+app-debug.apk
+*.png

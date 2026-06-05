@@ -63,6 +63,15 @@ def wa_send(text):
     except Exception as ex:
         log(f"[wa] err {str(ex)[:60]}")
 
+def push(title, body):
+    """FCM push ke app mobile (selain WA). Non-blocking."""
+    try:
+        import subprocess
+        subprocess.Popen(["/opt/wa-claude-bridge/venv/bin/python", "/opt/wa-claude-bridge/push_send.py", title, body],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception as ex:
+        log(f"[push] err {str(ex)[:60]}")
+
 # ---- data ----
 def orderbook(c):
     try:
@@ -155,6 +164,7 @@ def check_once():
                 wa_send(f"⛔ {c} TERJEBAK ARB-LOCK (auto-reject bawah)\n"
                         f"Harga {last:.0f} ({intc*100:+.1f}%) — bid kosong, TAK BISA jual.\n"
                         f"Posisi nyangkut; pantau pembukaan lock. uPL {rp((last-entry)*shares)}")
+                push(f"⛔ {c} TERJEBAK ARB-lock", f"Bid kosong, tak bisa jual ({intc*100:+.1f}%). uPL {rp((last-entry)*shares)}")
                 gs["warned_arb"].append(c); jsave(GSTATE, gs)
             log(f"{c}: ARB-LOCK trapped, last={last:.0f} pnl={pnl*100:.1f}%")
             continue
@@ -177,6 +187,7 @@ def check_once():
             wa_send(f"{emoji} ARA-Guard CLOSE {c} [{reason}]\n"
                     f"entry {entry:.0f} → exit {exitp:.0f} ({pnl*100:+.1f}%)  vr {vr:.1f}×\n"
                     f"P/L {rp(net)}  | sisa {len([x for x in opens if x not in gs['exited']])} posisi")
+            push(f"{emoji} ARA exit {c} [{reason}]", f"{entry:.0f}→{exitp:.0f} ({pnl*100:+.1f}%) · P/L {rp(net)}")
             log(f"{c}: EXIT {reason} pnl={pnl*100:.1f}% vr={vr:.1f} net={net:.0f}")
         else:
             log(f"{c}: hold pnl={pnl*100:+.1f}% intc={intc*100:+.1f}% vr={vr:.1f} pk={pk*100:+.1f}%")

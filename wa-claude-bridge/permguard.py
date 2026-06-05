@@ -21,6 +21,11 @@ def main():
     ti = data.get("tool_input", {}) or {}
     role = os.environ.get("CLAUDE_ROLE", roles.DEFAULT_ROLE)
     confirmed = os.environ.get("CLAUDE_CONFIRM", "0") == "1"
+    try:
+        with open("/tmp/permguard.log", "a") as f:
+            f.write(f"role={role} tool={tool} confirm={confirmed}\n")
+    except Exception:
+        pass
 
     # 1) tool-level (Write/Edit utk read-only)
     dec, why = roles.check_tool(role, tool)
