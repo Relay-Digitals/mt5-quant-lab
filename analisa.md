@@ -1,0 +1,2 @@
+Jadi lain kali Anda cukup bilang misal "analisa forex auto trade" atau "cek mp-brk-m1" / "jalankan analyze_rag" — saya langsung tahu service-nya mana, cara masuk LAN-nya, di mana RAG-nya, dan tool analisanya, tanpa
+  menemukan ulang dari nol.
