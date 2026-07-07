@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-07-02",
+  "strategy": "MPBRKM1",
+  "magic": 770015,
+  "symbol": "XAUUSD",
+  "in_sample": {"trades": 23, "wr": 57.0, "net": 571.0, "pf": 2.17, "since": "2026-06-24"},
+  "filters": {
+    "vol_ratio": 0.090,
+    "range_atr": 0.260,
+    "adx14": 19.738
+  },
+  "min_oos_trades": 20,
+  "note": "Frozen 2026-07-02 from 23 in-sample fwd trades. Do NOT re-tune until OOS test completes. Activate gate only if a filter drops a net-negative group AND kept-WR >= unfiltered-WR."
+}

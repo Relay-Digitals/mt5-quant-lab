@@ -17,13 +17,13 @@ from mt5_scalper import MT5Api
 import journal
 
 # magic → strategi (sesuai live runner)
-MAGIC_STRAT = {770001: "EMA", 770002: "MAOSC", 770003: "TREND", 770004: "MEANREV", 770005: "MAOSCQ", 770006: "MTFWR"}
+MAGIC_STRAT = {770001: "EMA", 770002: "MAOSC", 770003: "TREND", 770004: "MEANREV", 770005: "MAOSCQ", 770006: "MTFWR", 770015: "MPBRKM1"}
 
 
 def main():
     ap = argparse.ArgumentParser(description="Sync live deals → journal")
     ap.add_argument("--days", type=int, default=30)
-    ap.add_argument("--api", default="http://192.168.0.116:8000")
+    ap.add_argument("--api", default="http://127.0.0.1:8000")
     args = ap.parse_args()
 
     api = MT5Api(args.api, timeout=60)
