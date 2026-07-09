@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-07-09",
+  "strategy": "MPBRKM1",
+  "magic": 770015,
+  "symbol": "XAUUSD",
+  "in_sample": {"trades": 20, "wr": 45.0, "net": 187.76, "pf": 1.54, "since": "2026-07-02"},
+  "filter": {
+    "indicator": "rsi14",
+    "type": "avoid_band",
+    "lo": 40.0,
+    "hi": 60.0
+  },
+  "filter_effect": {
+    "kept":    {"trades": 12, "wr": 58.3, "net": 270.89, "pf": 2.82},
+    "dropped": {"trades": 8,  "wr": 25.0, "net": -83.13}
+  },
+  "stability": "PASS across band widths 35-65..45-55; 0/20 leave-one-out flips",
+  "supersedes": "pkg2_hypothesis.json (vol_ratio/range_atr/adx14 — FAILED OOS 2026-07-09, n=20)",
+  "note": "Deployed LIVE directly on 2026-07-09 per explicit user decision, skipping the shadow-log staging pkg2 used. Sample is small (n=20) — keep monitoring forward trades in the RAG journal; re-derive or drop this filter if the edge doesn't hold up over the next ~20-30 live trades."
+}

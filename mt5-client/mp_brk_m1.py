@@ -12,6 +12,15 @@ homelab host died; identical logic to the CT108 live version:
     SELL when the just-closed bar FRESH-crosses BELOW VAL (prev close ≥ VAL, close < VAL).
   • SL = 1.5×ATR(14). TP = 1.5×R where R = SL distance (R:R 1.5). Fixed 0.1 lot. Cooldown 0.
   • 1 position per magic (anti-stack). SL/TP sent to broker.
+  • Package-3 filter (added 2026-07-09): skip entries where RSI14 is in the neutral
+    zone [40,60] at signal time. Derived from n=20 forward-test trades in the RAG
+    journal (frozen 2026-07-02..07-09) — RSI outside 40-60 gave WR 58.3%/PF 2.82
+    (net +$270.89) vs WR 25.0%/net -$83.13 inside the zone, stable across band
+    widths 35-65..45-55 and 0/20 leave-one-out flips. Package-2 (vol_ratio/
+    range_atr/adx14) tested FAIL OOS and stays OFF; this replaces it.
+    Best-effort: an indicators-fetch error
+    fails OPEN (trade proceeds without the filter) so RAG downtime never blocks
+    trading, matching the journal's own best-effort philosophy.
 
 Execution on BAR CLOSE (bars[:-1], drop the forming bar) — no logic-drift vs backtest.
 
@@ -43,6 +52,16 @@ except Exception:
 
 MAGIC = 770015          # Market-Profile breakout M1 (per homelab live config)
 STRAT = "MPBRKM1"       # RAG strategy tag
+
+
+def _rsi14(api, sym) -> float | None:
+    """Fetch the current RSI14 snapshot for the Package-3 filter. Best-effort: None on any error."""
+    try:
+        snap = api._get(f"/api/symbols/{sym}/indicators", timeframe="M1", count=300)
+        snap = snap.get("latest") or snap
+        return snap.get("rsi14")
+    except Exception:
+        return None
 
 
 def _record_entry(api, sym, side, order_ticket, entry_price, lot, sl, tp):
@@ -147,6 +166,15 @@ def step(api: MT5Api, cfg: dict, sinfo: dict, state: dict) -> None:
     if poss:
         log(f"✗ SKIP: sudah ada {len(poss)} posisi mp-brk (magic {MAGIC})"); return
 
+    if cfg["rsi_filter"]:
+        rsi = _rsi14(api, sym)
+        if rsi is None:
+            log("   (RSI14 tidak tersedia — filter Package-3 dilewati, entry tetap jalan)")
+        elif cfg["rsi_lo"] <= rsi <= cfg["rsi_hi"]:
+            log(f"✗ SKIP: RSI14={rsi:.1f} di zona netral [{cfg['rsi_lo']},{cfg['rsi_hi']}] "
+                f"— sinyal breakout diabaikan (Package-3 filter)")
+            return
+
     tick = api.tick(sym)
     entry = tick["ask"] if side == "buy" else tick["bid"]
     sl_d = cfg["sl_atr"] * a                             # SL distance = 1.5×ATR
@@ -192,6 +220,11 @@ def main() -> None:
     ap.add_argument("--tp-r", type=float, default=1.5)
     ap.add_argument("--lot", type=float, default=0.1)
     ap.add_argument("--deviation", type=int, default=30)
+    ap.add_argument("--rsi-filter", dest="rsi_filter", action="store_true", default=True,
+                     help="skip entries with RSI14 in the neutral zone (Package-3, default on)")
+    ap.add_argument("--no-rsi-filter", dest="rsi_filter", action="store_false")
+    ap.add_argument("--rsi-lo", type=float, default=40.0)
+    ap.add_argument("--rsi-hi", type=float, default=60.0)
     ap.add_argument("--poll", type=int, default=15)
     ap.add_argument("--live", action="store_true", help="kirim order nyata")
     ap.add_argument("--allow-real", action="store_true", help="izinkan jalan di akun REAL")
@@ -207,13 +240,15 @@ def main() -> None:
 
     cfg = dict(symbol=args.symbol, window=args.window, bin_size=args.bin_size,
                va_frac=args.va_frac, atr_period=args.atr_period, sl_atr=args.sl_atr,
-               tp_r=args.tp_r, lot=args.lot, deviation=args.deviation, live=args.live)
+               tp_r=args.tp_r, lot=args.lot, deviation=args.deviation, live=args.live,
+               rsi_filter=args.rsi_filter, rsi_lo=args.rsi_lo, rsi_hi=args.rsi_hi)
 
     log(f"Akun {acc.get('login')} | {acc.get('server')} | {acc.get('company')} | "
         f"trade_mode={tmode_str} | bal=${acc['balance']:.2f} eq=${acc['equity']:.2f}")
+    rsi_str = f"RSI[{args.rsi_lo:.0f},{args.rsi_hi:.0f}] neutral-skip ON" if args.rsi_filter else "RSI filter OFF"
     log(f"MP breakout | {args.symbol} M1 | window {args.window} bin ${args.bin_size} "
         f"VA {args.va_frac:.0%} | SL {args.sl_atr}×ATR TP {args.tp_r}×R | lot {args.lot} | "
-        f"magic {MAGIC} | {'🔴 LIVE' if args.live else '🟢 PAPER'}")
+        f"magic {MAGIC} | {rsi_str} | {'🔴 LIVE' if args.live else '🟢 PAPER'}")
 
     if args.live and tmode_str == "REAL" and not args.allow_real:
         log("⛔ BERHENTI: akun REAL-money. Tambahkan --allow-real kalau memang disengaja.")
