@@ -1,0 +1,28 @@
+# Gradle / build
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.fleet/
+.kotlin/
+
+# Local config
+local.properties
+*.hprof
+
+# OS
+.DS_Store
+
+# Kotlin/Native & iOS
+*.klib
+xcuserdata/
+**/*.xcodeproj/project.xcworkspace/
+Pods/
+
+# Secrets — never commit tokens
+*.token
+secrets.properties
